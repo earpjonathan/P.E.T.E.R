@@ -760,3 +760,7 @@ Only `numpy` and `opencv-python-headless` are needed to render a clip with
 `vid2desmos.py`. The rest are for harvesting, transcription, capture and upload.
 
 `serve.py` is a small static server for previewing generated players locally.
+
+## License
+
+MIT, see `LICENSE`.
