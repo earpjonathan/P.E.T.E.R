@@ -1,0 +1,9 @@
+# Python 3.12, versions as used. ffmpeg, ffprobe and yt-dlp are installed
+# separately (Homebrew). Playwright also needs: playwright install chromium
+numpy==2.5.2
+opencv-python-headless==5.0.0.93
+faster-whisper==1.2.1
+playwright==1.62.0
+requests==2.34.2
+google-api-python-client==2.198.0
+google-auth-oauthlib==1.4.0

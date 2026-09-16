@@ -1,0 +1,20 @@
+# Channels whose clips have passed our filters. One URL per line, # to comment.
+# Flat-listed newest-first, so these surface recent uploads the searches miss.
+#
+# VERIFY A URL BEFORE ADDING IT. The two handles originally seeded here
+# (@SophLoaf, @Raizu) were guessed, not checked: one had no /videos tab and the
+# other 404'd, so this whole file contributed zero clips until 2026-08-23.
+# Check with:
+#   yt-dlp --flat-playlist --dump-json --playlist-end 5 <url>
+#
+# These are small channels - 2 to 12 uploads each - so they are a supplement to
+# the searches, not a substitute. Expect a couple of clips each, then nothing
+# new until they upload again.
+#
+# DO NOT add /shorts tabs. Shorts are portrait, and a portrait source renders
+# to a tall sliver in the top half of the reel. Measured: 20 of 20 Shorts from
+# one channel were 608x1080 and every one is now discarded by MIN_ASPECT, so a
+# /shorts tab costs a metadata fetch per entry and yields nothing.
+#
+# Example (one channel videos tab per line):
+# https://www.youtube.com/channel/<CHANNEL_ID>/videos

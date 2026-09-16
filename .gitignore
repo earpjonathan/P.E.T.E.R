@@ -1,0 +1,24 @@
+# Everything is ignored by default and only code and docs are let back in.
+# This folder also holds live credentials (client_secrets.json, token.json,
+# token.json.old, instagram_token.json), downloaded TV clips (Clips/, out/),
+# transcripts of those clips, and upload/post logs with media IDs. None of
+# that can ever be committed. To track a new file, add a "!" line below.
+/*
+
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/*.py
+!/harvest_channels.example.txt
+
+# ffmpeg test patterns (testsrc2, life), fine to share and handy for trying it out.
+!/samples/
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# Belt and braces: never track these, even if a rule above changes.
+client_secrets*.json
+token.json*
+*token*.json
